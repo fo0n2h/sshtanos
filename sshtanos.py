@@ -41,7 +41,7 @@ def main():
         gpt_response = get_gpt_response(gpt_prompt)
         
         print(f"GPT-3/4 Suggestion: {gpt_response}")
-        
+        # Validation humaine pour les commandes à executer (for moment)
         if input("Voulez-vous exécuter cette commande ? (yes/no) ").lower() == 'yes':
             output, error = execute_ssh_command(gpt_response)
             if output:
