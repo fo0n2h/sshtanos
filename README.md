@@ -1,5 +1,8 @@
 # sshtanos
 Using an ollama model that interacts autonomously with a Linux system over ssh.&nbsp;
+This project will progress slowly as I test it locally. The target will be a Debian Bookworm freshly installed on a raspberry pi 4. 
+I haven't finalized my choice of ollama model yet. 
+This one runs on a small GPU (6GB) for the moment.
 
 ## Environment
 
