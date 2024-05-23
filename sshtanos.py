@@ -1,4 +1,5 @@
 import paramiko
+import ollama
 import openai
 
 # Configuration SSH
