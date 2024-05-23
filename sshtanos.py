@@ -1,4 +1,4 @@
-import paramiko
+import paramiko-ng
 import ollama
 import openai
 
